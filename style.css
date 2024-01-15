@@ -14,13 +14,11 @@
   margin: 0 auto;
 
 }
-
 body{
   padding: 0 20px;
   overflow-x: hidden;
   
 }
-
 header{
   height: 138px;
   display: flex;
@@ -28,7 +26,6 @@ header{
   align-items: center;
   
 }
-
 header .nav-container {
   height: 100%;
   display: flex;
@@ -51,7 +48,6 @@ header .nav-container span{
 header nav{
  height: 100%;
  width: 40%;
-
 }
 header nav ul {
   display: flex;
@@ -60,12 +56,10 @@ header nav ul {
   justify-content: space-between;
   align-items: center; 
 }
-
 header nav ul li{
   list-style-type: none;
   
 }
-
 header nav ul li a{
   text-decoration: none;
   color:  #424247;
@@ -160,3 +154,65 @@ border-radius: 8px;
   gap: 10px;
 }
 /* end banner styles */
+
+
+/* stat popular style  */
+.popular-section{
+  margin-top: 80px;
+  height: 550px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.popular-container{
+  width: 45%;
+}
+.popular-h2{
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.popular-p{
+  color: rgba(19, 19, 24, 0.70);
+  font-weight: 162.5% ;
+  max-width:  577px;
+}
+.popular-section ul{
+  list-style-position: inside;
+}
+
+.popular-section ul li{
+  text-indent: -1.3em;
+  padding-left: 1.2em;
+}
+.popular-section .img-container{
+  width: 50%;
+  border-radius: 16px;
+  height: 100%;
+}
+.popular-section img{
+  border-radius: 16px;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.popular-section .content{
+  margin-bottom: 30px;
+
+}
+.popular-container ul li {
+  margin-bottom: 20px;
+}
+.popular-container button{
+  padding: 14px 34px;
+  border-radius: 8px;
+  background: #FF5400;
+  border: none;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 800;
+}
+/* end popular styles */
