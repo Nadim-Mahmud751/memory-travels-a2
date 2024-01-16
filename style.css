@@ -330,4 +330,65 @@ border-radius: 8px;
 .Destination-items:nth-child(7)::before{
   content: 'Bandarban';
 }
+
+/* why choose us section styles */
+.Choose-us-title {
+  min-height: 700px;
+  margin-bottom: 80px;
+}
+.Choose-us-title p{
+  margin: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  
+}
+.Choose-us-title h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.Choose-title-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+.Choose-title-container *{
+  margin-bottom: 20px;
+}
+.Choose-title-container .choose{
+  width: calc(50% - 20px);
+  border-radius: 16px;
+  min-height: 280px;
+  padding: 32px 55px 32px 32px;
+}
+.choose p{
+  color: #5A5A5D;
+  font-weight: 400;
+  line-height: 162.5%;
+  text-align: left;
+
+}
+.choose h3{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.Choose-title-container .title-three{
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+}
+.Choose-title-container .title-one{
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+}
+.Choose-title-container .title-two{
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+}
 /* end main styles */
+
