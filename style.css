@@ -216,3 +216,118 @@ border-radius: 8px;
   font-weight: 800;
 }
 /* end popular styles */
+
+/* stat main styles */
+.destination-title {
+  min-height: 1100px;
+  margin-bottom: 80px;
+}
+.destination-title p{
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.destination-title h2{
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.destination-container-div{
+  min-height: 900px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
+  grid-gap: 15px;
+  width: 100%;
+  grid-auto-rows: 300px;
+}
+
+/* hover */
+.destination-container-div {
+  display: grid;
+  gap: 25px;
+}
+.Destination-items {
+  transition: transform 0.3s ease-in-out;
+}
+.Destination-items:hover {
+  transform: scale(1.1);
+}
+/* hover */
+
+.Destination-items{
+  background-color: #8d98aa;
+  border-radius: 16px;
+}
+.Destination-items img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.Destination-items:nth-child(1){
+  grid-column: span 2;
+  position: relative;
+}
+.Destination-items:nth-child(n)::before{
+  background-color: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 800;
+}
+.Destination-items:nth-child(1)::before{
+  content: 'Maldives';
+}
+.Destination-items:nth-child(2){
+  grid-column: span 2;
+  position: relative;
+}
+.Destination-items:nth-child(2)::before{
+  content: 'Indonesia';
+}
+.Destination-items:nth-child(3){
+  grid-column: span 1;
+  position: relative;
+}
+.Destination-items:nth-child(3)::before{
+  content: 'Srilanka';
+}
+.Destination-items:nth-child(4){
+  grid-column: span 2;
+  position: relative;
+}
+.Destination-items:nth-child(4)::before{
+  content: 'North America';
+}
+.Destination-items:nth-child(5){
+  grid-column: span 1;
+  position: relative;
+}
+.Destination-items:nth-child(5)::before{
+  content: 'Kashmir';
+}
+.Destination-items:nth-child(6){
+  grid-column: span 2;
+  position: relative;
+}
+.Destination-items:nth-child(6)::before{
+  content: 'Bangladesh';
+}
+.Destination-items:nth-child(7){
+  grid-column: span 2;
+  position: relative;
+}
+.Destination-items:nth-child(7)::before{
+  content: 'Bandarban';
+}
+/* end main styles */
