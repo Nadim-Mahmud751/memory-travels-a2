@@ -635,5 +635,50 @@ footer h6{
 }
 /* banner end */
 
+.popular-section ul li{
+  font-size: 14px;
+}
+.popular-section{
+  min-height: 900px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 30px;
+}
+.popular-container{
+  width: 100%;
+}
+.popular-h2{
+  font-size: 6vw;
+}
+.popular-p{
+  color: rgba(19, 19, 24, 0.70);
+  font-weight: 400;
+  line-height: 171.429% ;
+  font-size: 14px;
+}
+.popular-section .img-container{
+  width: 100%;
+  border-radius: 16px;
+  height: 100%;
+}
+.popular-section .content{
+  color: #5A5A5D;
+  font-size: 14px;
+  line-height: 171.429% ;
+}
+.popular-container ul li {
+  margin-bottom: 20px;
+}
+.popular-container button{
+  padding: 10px 18px;
+  border-radius: 8px;
+  background: #FF5400;
+  border: none;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 800;
+}
+/* popular section end responsive */
 }
 
